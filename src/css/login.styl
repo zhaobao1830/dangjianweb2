@@ -1,0 +1,171 @@
+  @import 'base.styl';
+
+  .djwlogin
+    width: 100%
+    height: 100%
+    .djwloginTop
+      width: 100%
+      ptor('height', 400)
+      background-image: url("../images/login/loginBg.png")
+      background-repeat: no-repeat
+      background-position: center
+      background-size: cover
+      overflow: hidden
+      p
+        ptor('font-size', 38)
+        color: #fff
+        text-align: center
+        margin-top: 40px
+    .chechkLogRegis
+      ptor('height', 110)
+      display: flex
+      background-color: #eeeeee
+      div
+        flex: 1
+        text-align: center
+        align-items: center
+        span
+          ptor('line-height', 110)
+          ptor('font-size', 30)
+          display: block
+      .activeSpan
+        position: relative
+        span
+          color: red
+        em
+          position: absolute
+          font-size: 0
+          line-height: 0
+          ptor('top', 95)
+          text-align: center
+          left: 0
+          right: 0
+          margin: auto
+          width: 0
+          height: 0
+          border-left: 12px solid transparent
+          border-right: 12px solid transparent
+          border-bottom: 15px solid #fff
+    .loginContent
+      ptor('margin-top', 70)
+      .logusernameandpassword
+        ptor('margin-left', 95)
+        ptor('margin-right', 95)
+        border-bottom: 1px solid #dddddd
+        display: flex
+        align-items: center
+        position: relative
+        .logusernameandpasswordDiv
+          ptor('padding-top', 40)
+          ptor('padding-bottom', 30)
+          flex-shrink: 0
+          ptor('flex-basis', 36)
+          ptor('margin-right', 20)
+          span
+            background-size: 100% 100%
+            ptor('width', 36)
+            ptor('height', 40)
+            display: inline-block
+          .logusernameImg
+            background-image: url("../images/login/username.png")
+          .logpasswordImg
+            background-image: url("../images/login/password.png")
+        .logusernameandpasswordInput
+          width: 100%
+          flex-shrink: 1
+          input
+            width: 100%
+            ptor('height', 38)
+            ptor('line-height', 38)
+            ptor('font-size', 30)
+            outline: 0
+            border: 0
+            color: #777777
+        .prompt
+          position: absolute
+          z-index: 999
+          ptor('top', 110)
+          ptor('height', 28)
+          ptor('line-height', 28)
+          img
+            ptor('width', 29)
+            ptor('height', 28)
+            display: block
+            float: left
+          p
+            color: #fd7b01
+            ptor('font-size', 22)
+            display: block
+            float: left
+            margin: 0
+            ptor('margin-left', 10)
+      .loginSubmit
+        text-align: center
+        ptor('line-height', 94)
+        ptor('margin-top', 100)
+        ptor('margin-right', 94)
+        ptor('margin-bottom', 40)
+        ptor('margin-left', 50)
+        ptor('height', 94)
+        border: 1px solid #dddddd
+        ptor('border-radius', 47.5)
+        ptor('font-size', 36)
+        color: #777777
+      .forgetPassword
+        color: #bbbbbb
+        ptor('font-size', 26)
+        text-align: center
+        ptor('margin-bottom', 250)
+    .registerContent
+      ptor('margin-top', 70)
+      .registerCon
+        ptor('margin-left', 95)
+        ptor('margin-right', 95)
+        border-bottom: 1px solid #dddddd
+        display: flex
+        align-items: center
+        position: relative
+        input
+          width: 100%
+          ptor('height', 40)
+          ptor('line-height', 40)
+          ptor('font-size', 30)
+          ptor('padding-top', 40)
+          ptor('padding-bottom', 30)
+          outline: 0
+          border: 0
+          color: #777777
+        .prompt
+          z-index: 999
+          position: absolute
+          ptor('top', 110)
+          ptor('height', 28)
+          ptor('line-height', 28)
+          img
+            ptor('width', 29)
+            ptor('height', 28)
+            display: block
+            float: left
+          p
+            color: #fd7b01
+            ptor('font-size', 22)
+            display: block
+            float: left
+            margin: 0
+            ptor('margin-left', 10)
+      .registerSubmit
+        text-align: center
+        ptor('height', 94)
+        ptor('line-height', 94)
+        ptor('margin-top', 100)
+        ptor('margin-left', 95)
+        ptor('margin-right', 95)
+        ptor('margin-bottom', 40)
+        border: 1px solid #dddddd
+        ptor('border-radius', 47.5)
+        ptor('font-size', 36)
+        color: #777777
+    .confirm-enter-active,.confirm-leave-active
+      transition: opacity  .3s
+    .confirm-enter,.confirm-leave-to
+      opacity: 0

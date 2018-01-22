@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1，minimum-scale=1,maximum-sacle=1，user-scalable=no">
+</head>
+<body>
+<div class="djwlogin">
+  <div class="djwloginTop">
+    <p>中铁电商党工青</p>
+  </div>
+  <div class="chechkLogRegis">
+    <div :class="{activeSpan: loginChecked}" class="checkLogin" @click="chechkLogRegis('login')">
+      <span>登录</span>
+      <em></em>
+    </div>
+    <div :class="{activeSpan: registerChecked}" class="checkRegister" @click="chechkLogRegis('register')">
+      <span>注册</span>
+      <em></em>
+    </div>
+  </div>
+  <div class="loginContent" v-show="loginChecked">
+    <div class="logusernameandpassword">
+      <div class="logusernameandpasswordDiv">
+        <span class="logusernameImg"></span>
+      </div>
+      <div class="logusernameandpasswordInput">
+        <input class="loguserInput" v-model="logusername" placeholder="用户名"/>
+      </div>
+      <div class="prompt" v-show="logusernameCheck">
+        <img src="./prompt.png"/>
+        <p>用户名未填写</p>
+      </div>
+    </div>
+    <div class="logusernameandpassword">
+      <div class="logusernameandpasswordDiv">
+        <span class="logpasswordImg"></span>
+      </div>
+      <div class="logusernameandpasswordInput">
+        <input class="logpasswordInput" type="password" v-model="logpassword" placeholder="密码"/>
+      </div>
+      <div class="prompt" v-show="logpasswordCheck">
+        <img src="./prompt.png"/>
+        <p>密码未填写</p>
+      </div>
+    </div>
+    <div class="loginSubmit" @click="login">登录</div>
+    <div class="forgetPassword">找回密码？</div>
+  </div>
+  <div class="registerContent" v-show="registerChecked">
+    <div class="registerCon">
+      <input class="regusernameInput" v-model="reusername" placeholder="用户名"/>
+      <div class="prompt" v-show="reusernameCheck">
+        <img src="./prompt.png"/>
+        <p>用户名未填写</p>
+      </div>
+    </div>
+    <div class="registerCon">
+      <input class="regpasswordInput" type="password" v-model="regpassword" placeholder="密码"/>
+      <div class="prompt" v-show="regpasswordCheck">
+        <img src="./prompt.png"/>
+        <p>密码未填写</p>
+      </div>
+    </div>
+    <div class="registerCon">
+      <input class="regconregpasswordInput" type="password" v-model="conregpassword" placeholder="确认密码"/>
+      <div class="prompt" v-show="conregpasswordCheck">
+        <img src="./prompt.png"/>
+        <p v-show="conregpasswordCheckHave">确认密码未填写</p>
+        <p v-show="conregpasswordCheckError">密码不一致</p>
+      </div>
+    </div>
+    <div class="registerCon">
+      <input class="regmailboxInput" type="email" v-model="mailbox" placeholder="邮箱"/>
+      <div class="prompt" v-show="mailboxCheck">
+        <img src="./prompt.png"/>
+        <p v-show="mailboxCheckHave">邮箱未填写</p>
+        <p v-show="mailboxCheckError">邮箱不正确</p>
+      </div>
+    </div>
+    <div class="registerSubmit" @click="register">注册</div>
+  </div>
+  <transition name="confirm">
+    <confirm @hideConfrim="hideConfrim" v-show="confirmShow" :confirmShow="confirmShow" :text="text"></confirm>
+  </transition>
+</div>
+</body>
+</html>

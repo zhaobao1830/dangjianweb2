@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1，minimum-scale=1,maximum-sacle=1，user-scalable=no">
+</head>
+<body>
+  <div class="homepage">
+    <div class="mheader">
+      <div class="mheaderCon">
+        <div class="goBack" v-show="!usernameShow" @click="goBack">
+          <img src="./goBack.png"/>
+        </div>
+        <div class="username" v-show="usernameShow">
+          <img src="./username.png"/>
+        </div>
+        <div class="webname" v-show="!serachShow">
+          <img src="./logo.png"/>
+          <p>中铁电商党工青</p>
+        </div>
+        <div class="search" v-show="!serachShow" @click="showSearch">
+          <i></i>
+        </div>
+        <div class="searchVal" v-show="serachShow">
+          <input type="text"/>
+          <i @click="search"></i>
+        </div>
+        <div class="switch" @click="operationShow">
+          <img src="./switch.png"/>
+        </div>
+      </div>
+      <operation v-show="operationIsShow" @operationHide="operationHide"></operation>
+    </div>
+    <div class="tab">
+      <div class="table-item">
+        <span class="tab-link tab-link-active">首页</span>
+      </div>
+      <div class="table-item">
+        <span class="tab-link">时政</span>
+      </div>
+      <div class="table-item">
+        <span class="tab-link">思想理论</span>
+      </div>
+      <div class="table-item">
+        <span class="tab-link">党建经验</span>
+      </div>
+      <div class="table-item">
+        <span class="tab-link">最新动态</span>
+      </div>
+    </div>
+    <div class="slider-content">
+      <img src="./slide.png"/>
+      <!--<slider>-->
+      <!--</slider>-->
+      <div class="slider-content-division"></div>
+    </div>
+    <div class="homepage-content">
+      <div class="homepage-content-table">
+        <div class="hct-item item-hct item-hct-active">
+          <span>精华主题</span>
+        </div>
+        <div class="hct-item item-hct item-hct-leave">
+          <span>最新帖子</span>
+        </div>
+        <div class="hct-item item-hct item-hct-leave">
+          <span>最新回复</span>
+        </div>
+      </div>
+      <div class="homepage-conList">
+        <ul class="itemUl">
+          <li class="item">
+            <div class="icon">
+              <img src="./con1.png"/>
+            </div>
+            <div class="text">
+              <div class="name">鲁班一届一次民主管理大会
+                开幕唱国歌</div>
+              <div class="desc">
+                <p class="publisher">陈一桥</p>
+                <p class="pubdata">2017-3-15  15:00:22</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="icon">
+              <img src="./con1.png"/>
+            </div>
+            <div class="text">
+              <div class="name">鲁班一届一次民主管理大会开幕唱国歌<span class="top">顶</span></div>
+              <div class="desc">
+                <p class="publisher">陈一桥</p>
+                <p class="pubdata">2017-3-15  15:00:22</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="icon">
+              <img src="./con1.png"/>
+            </div>
+            <div class="text">
+              <div class="name">鲁班一届一次民主管理大会
+                开幕唱国歌</div>
+              <div class="desc">
+                <p class="publisher">陈一桥</p>
+                <p class="pubdata">2017-3-15  15:00:22</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+</body>
+</html>
