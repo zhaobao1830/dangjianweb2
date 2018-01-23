@@ -1,0 +1,127 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.homepage {
+  width: 100%;
+  height: 100%;
+}
+.homepage .slider-content {
+  width: 100%;
+  height: 4.133333333333334rem;
+  font-size: 0;
+}
+.homepage .slider-content img {
+  width: 100%;
+  height: 4.133333333333334rem;
+}
+.homepage .slider-content .slider-content-division {
+  height: 0.266666666666667rem;
+  background-color: #ddd;
+}
+.homepage .homepage-content .homepage-content-table {
+  width: 100%;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.48rem;
+  display: flex;
+}
+.homepage .homepage-content .homepage-content-table .hct-item {
+  flex: 1;
+  text-align: center;
+}
+.homepage .homepage-content .homepage-content-table .item-hct {
+  border-bottom: 2px solid;
+  border-color: #bbb;
+}
+.homepage .homepage-content .homepage-content-table .item-hct span {
+  height: 0.493333333333333rem;
+  padding-bottom: 0.4rem;
+}
+.homepage .homepage-content .homepage-content-table .item-hct-leave span {
+  color: #222;
+}
+.homepage .homepage-content .homepage-content-table .item-hct-active {
+  border-bottom-color: #bf0000;
+}
+.homepage .homepage-content .homepage-content-table .item-hct-active span {
+  color: #bf0000;
+}
+.homepage .homepage-conList .itemUl .item {
+  overflow: hidden;
+  margin: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  height: 2.4rem;
+}
+.homepage .homepage-conList .itemUl .item .icon {
+  flex-basis: 3.066666666666667rem;
+  width: 3.066666666666667rem;
+  height: 2rem;
+  padding-right: 0.4rem;
+}
+.homepage .homepage-conList .itemUl .item .icon img {
+  width: 3.066666666666667rem;
+  height: 2rem;
+}
+.homepage .homepage-conList .itemUl .item .text {
+  height: 2rem;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+.homepage .homepage-conList .itemUl .item .text .name {
+  width: 100%;
+  color: #000;
+  font-size: 0.48rem;
+  line-height: 0.533333333333333rem;
+  display: inline-block;
+}
+.homepage .homepage-conList .itemUl .item .text .name .top {
+  font-size: 0.32rem;
+  line-height: 0.48rem;
+  border-radius: 0.053333333333333rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-left: 0.066666666666667rem;
+  text-align: center;
+  background-color: #f00;
+  color: #fff;
+  display: inline-block;
+}
+.homepage .homepage-conList .itemUl .item .text .desc {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 0.346666666666667rem;
+  color: #777;
+  line-height: 0.48rem;
+}
+.homepage .homepage-conList .itemUl .item .text .desc .posting {
+  display: inline-block;
+}
+.homepage .homepage-conList .itemUl .item .text .desc .publisher {
+  margin-right: 0.266666666666667rem;
+  display: inline-block;
+}
+.homepage .homepage-conList .itemUl .item .text .desc .pubdata {
+  display: inline-block;
+}
+
+.displayNone{
+  display: none;
+}
+.displayBlock{
+  display: block;
+}

@@ -1,0 +1,218 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.djwlogin {
+  width: 100%;
+  height: 100%;
+}
+.djwlogin .djwloginTop {
+  width: 100%;
+  height: 5.333333333333333rem;
+  background-image: url(../images/1710a14d55fb3f4e8b7c35097ec4e978.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.djwlogin .djwloginTop p {
+  font-size: 0.506666666666667rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+.djwlogin .chechkLogRegis {
+  height: 1.466666666666667rem;
+  display: flex;
+  background-color: #eee;
+}
+.djwlogin .chechkLogRegis div {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+}
+.djwlogin .chechkLogRegis div span {
+  line-height: 1.466666666666667rem;
+  font-size: 0.4rem;
+  display: block;
+}
+.djwlogin .chechkLogRegis .activeSpan {
+  position: relative;
+}
+.djwlogin .chechkLogRegis .activeSpan span {
+  color: #f00;
+}
+.djwlogin .chechkLogRegis .activeSpan em {
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  top: 1.266666666666667rem;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+.djwlogin .loginContent {
+  margin-top: 0.933333333333333rem;
+}
+.djwlogin .loginContent .logusernameandpassword {
+  margin-left: 1.266666666666667rem;
+  margin-right: 1.266666666666667rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordDiv {
+  padding-top: 0.533333333333333rem;
+  padding-bottom: 0.4rem;
+  flex-shrink: 0;
+  flex-basis: 0.48rem;
+  margin-right: 0.266666666666667rem;
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordDiv span {
+  background-size: 100% 100%;
+  width: 0.48rem;
+  height: 0.533333333333333rem;
+  display: inline-block;
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordDiv .logusernameImg {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAoCAYAAACWwljjAAACFUlEQVRYhe3YO2gVQRSH8V82kkJBBBFiESISYyGoRQxERdAilQoqKUQEa7ER1KtiKYIIIYhgIQg2Vj4K01n4AAVbX43YpDOgYqUJSix2bggh3ntm700i4gdT7f+c/dgdZnaW/zSmo1artdpjD05iB7rxHrdxCz9zm62oILAXl7AbXQtcH0jjOA7hU07zIlPmCB5j3x9k5jKE5+hdLKFVuInOjJp+PMOGxRA6hnUZ+Tq9uBsN5wjtz3eZZQhrIsEcoe3VXGZZHQlFhbrQU90lTlSoytyZz8pIKCrUjqfTtjnUjTutuZB6dDcLRYROKNeTVulPvRoSfULtYn2zQEToaxtE6nxuFogIvW2DSJ13zQIRoSeYbt3FdOrVkIjQF1xvWYcbqVdDouvQZXxvQeYHrkaCUaFveFrVRvmqJiPBnM31UTUXMB4N5gjdx1S+iynci4ZzhCZxHjMZNTOpJvS6coVgTPlxPxHITqTsWM4NcoXgpdicGE/ZLKoIdWA4kBuu0r+K0EH0BXJ9OJDbvIrQ2YzsudzmOUKdOINdGTU7U034LNfoKN2JjdiaJA7LPIUmruEUHuAF3uAjfjUT6kk3HcQ2bNL8uBylF6fToNz5P+A1XuGhtJTUha6gptqcqkIXtqRxFKPKzfdiofxTcWEJZRaiSA4DBUaWUWQ+I4VyzvwtDBZii9xSsbnA2uW2mEM7juz/OL8BdpRJCzBROa4AAAAASUVORK5CYII=);
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordDiv .logpasswordImg {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAoCAYAAACWwljjAAACU0lEQVRYhe3Yu2tUQRQG8F/uhohFCq1USCMpBBsbjWAaO1GR4AMLsfQPECEr2FiJD8R0Fmpl4QNREUkXLFKb6LZJxEYhpBASTUxC1OLOymay7r37yCZIPrhwz8yc73x35s7jTEexWFQHunAKAziCPVjBMgrYhgV8wXu8xhss5Q3QWYeYAdxBb5W67RXv3dgXnguYxCBe5QmS5GhTwK1AWE1MFnrxMnAUshrn6aEb0i9sFoP4jau1GmX10OkcYpbwHC9k/ytFnGlUUBeGorKVyP6KwziPc+gLZbV87gXuugWdRU+FXZ5JZSziBMYryj7geKgroxB8y+iRiq9b0EBkf47s+0FAjI+hrpZvzJ1L0KHI7o7sZzV847rY92AjgnZF9o7IHqvhOx7ZOyN7dyOCtmXYtWbUYmTHP3FDP/WGYEtQFrYEZSHBqHTTi58sVPNp1n80QX9dn7C+6N+UQ7apsCUoC/+toBVrT4YNIVFHzlQDV3CtBTxLCWZbQPQYD1rAM5tgqgVErcJUJ0rSbKEZXLT2ANcISp0YwaUmie62QAyMJBjGjyaJCnKkyRmYx3CCOTxtkqwVeIK58jp00+pkrt1Yll5G/F0YJ6Up7kZhCBOsXqmvS2dcu1EKsbFa0IL0ZmKmjWJmQsz5aoJIh+4YptsgZjrEmqwsrLa5jkmPtes5fKUQY006/q/dflK6et/W2tm3HDj7RD2TJQh+Sm+89uOhinFuAAt4FLiKgbsq8twxTki3lss4iaM4gL3SG5EO/AptE2k68w2fpPdH7/AW3/Mo/wPRuILjBq5jKwAAAABJRU5ErkJggg==);
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordInput {
+  width: 100%;
+  flex-shrink: 1;
+}
+.djwlogin .loginContent .logusernameandpassword .logusernameandpasswordInput input {
+  width: 100%;
+  height: 0.506666666666667rem;
+  line-height: 0.506666666666667rem;
+  font-size: 0.4rem;
+  outline: 0;
+  border: 0;
+  color: #777;
+}
+.djwlogin .loginContent .logusernameandpassword .prompt {
+  position: absolute;
+  z-index: 999;
+  top: 1.466666666666667rem;
+  height: 0.373333333333333rem;
+  line-height: 0.373333333333333rem;
+}
+.djwlogin .loginContent .logusernameandpassword .prompt img {
+  width: 0.386666666666667rem;
+  height: 0.373333333333333rem;
+  display: block;
+  float: left;
+}
+.djwlogin .loginContent .logusernameandpassword .prompt p {
+  color: #fd7b01;
+  font-size: 0.293333333333333rem;
+  display: block;
+  float: left;
+  margin: 0;
+  margin-left: 0.133333333333333rem;
+}
+.djwlogin .loginContent .loginSubmit {
+  text-align: center;
+  line-height: 1.253333333333333rem;
+  margin-top: 1.333333333333333rem;
+  margin-right: 1.253333333333333rem;
+  margin-bottom: 0.533333333333333rem;
+  margin-left: 0.666666666666667rem;
+  height: 1.253333333333333rem;
+  border: 1px solid #ddd;
+  border-radius: 0.633333333333333rem;
+  font-size: 0.48rem;
+  color: #777;
+}
+.djwlogin .loginContent .forgetPassword {
+  color: #bbb;
+  font-size: 0.346666666666667rem;
+  text-align: center;
+  margin-bottom: 3.333333333333333rem;
+}
+.djwlogin .registerContent {
+  margin-top: 0.933333333333333rem;
+}
+.djwlogin .registerContent .registerCon {
+  margin-left: 1.266666666666667rem;
+  margin-right: 1.266666666666667rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.djwlogin .registerContent .registerCon input {
+  width: 100%;
+  height: 0.533333333333333rem;
+  line-height: 0.533333333333333rem;
+  font-size: 0.4rem;
+  padding-top: 0.533333333333333rem;
+  padding-bottom: 0.4rem;
+  outline: 0;
+  border: 0;
+  color: #777;
+}
+.djwlogin .registerContent .registerCon .prompt {
+  z-index: 999;
+  position: absolute;
+  top: 1.466666666666667rem;
+  height: 0.373333333333333rem;
+  line-height: 0.373333333333333rem;
+}
+.djwlogin .registerContent .registerCon .prompt img {
+  width: 0.386666666666667rem;
+  height: 0.373333333333333rem;
+  display: block;
+  float: left;
+}
+.djwlogin .registerContent .registerCon .prompt p {
+  color: #fd7b01;
+  font-size: 0.293333333333333rem;
+  display: block;
+  float: left;
+  margin: 0;
+  margin-left: 0.133333333333333rem;
+}
+.djwlogin .registerContent .registerSubmit {
+  text-align: center;
+  height: 1.253333333333333rem;
+  line-height: 1.253333333333333rem;
+  margin-top: 1.333333333333333rem;
+  margin-left: 1.266666666666667rem;
+  margin-right: 1.266666666666667rem;
+  margin-bottom: 0.533333333333333rem;
+  border: 1px solid #ddd;
+  border-radius: 0.633333333333333rem;
+  font-size: 0.48rem;
+  color: #777;
+}
+.djwlogin .confirm-enter-active,
+.djwlogin .confirm-leave-active {
+  transition: opacity 0.3s;
+}
+.djwlogin .confirm-enter,
+.djwlogin .confirm-leave-to {
+  opacity: 0;
+}
+
+.displayNone{
+  display: none;
+}

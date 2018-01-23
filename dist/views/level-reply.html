@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>level-reply</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1，minimum-scale=1,maximum-sacle=1，user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="../css/level-reply.css">
+</head>
+<body>
+  <div class="level-reply">
+  <div class="level-reply-detail">
+    <div class="goBack">
+      <div class="img"><img src="../images/goBack1.png"/></div>
+      <div class="name">评论</div>
+    </div>
+    <div class="level-reply-division"></div>
+    <div class="level-reply-list">
+      <ul class="listItem">
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img"><img src="../images/headerPortrait.png"/></div>
+          <div class="con">
+            <div class="name">陈一桥</div>
+            <div class="content">回复的内容</div>
+            <div class="date">2017-3-15 15:00:22</div>
+          </div>
+        </li>
+      </ul>
+      <div class="level-reply-tip">
+        没有更多内容
+      </div>
+    </div>
+  </div>
+  <div class="level-reply-add">
+    <input class="add-reply-input" type="text" placeholder="添加评论"/>
+    <div class="img">
+      <img src="../images/replyAdd.png"/>
+    </div>
+  </div>
+    <script type="text/javascript" src="../js/util.js"></script>
+    <script type="text/javascript">
+      window.onload=function () {
+        computedFontSize()
+      }
+      window.onresize=function () {
+        computedFontSize()
+      }
+      function operationShow() {
+        $(".operation").removeClass("displayNone").addClass("displayBlock")
+      }
+      function operationHide() {
+        $(".operation").removeClass("displayBlock").addClass("displayNone")
+      }
+    </script>
+</div>
+</body>
+</html>

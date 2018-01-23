@@ -1,0 +1,32 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.tab {
+  width: 100%;
+  height: 1.466666666666667rem;
+  line-height: 1.466666666666667rem;
+  font-size: 0.426666666666667rem;
+}
+.tab .table-item {
+  padding-left: 0.266666666666667rem;
+  padding-right: 0.266666666666667rem;
+  display: inline-block;
+}
+.tab .table-item .tab-link {
+  height: 0.493333333333333rem;
+  color: #222;
+  padding-bottom: 0.4rem;
+}
+.tab .table-item .tab-link-active {
+  color: #bf0000;
+  border-bottom: 3px solid #bf0000;
+}

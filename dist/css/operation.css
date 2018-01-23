@@ -1,0 +1,55 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.operation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(78,78,78,0.8);
+}
+.operation .operationCon {
+  position: absolute;
+  right: 0.266666666666667rem;
+  top: 1.333333333333333rem;
+  width: 3.066666666666667rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.operation .operationCon .operul {
+  margin-left: 0.266666666666667rem;
+  margin-right: 0.266666666666667rem;
+}
+.operation .operationCon .operul .operli {
+  height: 0.866666666666667rem;
+  line-height: 0.866666666666667rem;
+  font-size: 0.373333333333333rem;
+  border-bottom: 1px solid #777;
+  display: flex;
+  align-content: center;
+}
+.operation .operationCon .operul .operli .img {
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-right: 0.333333333333333rem;
+  flex-basis: 0.48rem;
+  margin-top: 0.133333333333333rem;
+}
+.operation .operationCon .operul .operli .img img {
+  width: 0.48rem;
+  height: 0.48rem;
+}
+.operation .operationCon .operul .operli .title {
+  flex: 1;
+  font-size: 0.373333333333333rem;
+}

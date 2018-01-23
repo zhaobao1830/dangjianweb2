@@ -1,0 +1,82 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.level-detail {
+  width: 100%;
+  height: 100%;
+}
+.level-detail .title {
+  font-size: 0.533333333333333rem;
+  margin: 0.533333333333333rem;
+  color: #000;
+}
+.level-detail .level-detail-division {
+  height: 0.266666666666667rem;
+  background-color: #ddd;
+}
+.level-detail .detail-top {
+  overflow: hidden;
+  padding: 0.466666666666667rem;
+  border-bottom: 1px solid #ddd;
+}
+.level-detail .detail-top .topLeft {
+  float: left;
+}
+.level-detail .detail-top .topLeft .headPortrait {
+  display: inline-block;
+  width: 1.146666666666667rem;
+  height: 1.146666666666667rem;
+  margin-right: 0.4rem;
+  float: left;
+}
+.level-detail .detail-top .topLeft .headPortrait img {
+  width: 1.146666666666667rem;
+  height: 1.146666666666667rem;
+}
+.level-detail .detail-top .topLeft .nameAndSee {
+  display: inline-block;
+  float: left;
+}
+.level-detail .detail-top .topLeft .nameAndSee .name {
+  margin-top: 0.066666666666667rem;
+  font-size: 0.4rem;
+}
+.level-detail .detail-top .topLeft .nameAndSee .see {
+  font-size: 0.346666666666667rem;
+  margin-top: 0.266666666666667rem;
+  color: #888;
+}
+.level-detail .detail-top .topLeft .nameAndSee .see span {
+  margin-right: 0.133333333333333rem;
+}
+.level-detail .detail-top .topLeft .nameAndSee .see p {
+  display: inline-block;
+}
+.level-detail .detail-top .topRight {
+  float: right;
+  border-radius: 6px;
+  border: 2px solid #398fd1;
+  font-size: 0.4rem;
+  width: 1.6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #398fd1;
+  text-align: center;
+}
+.level-detail .detail-content {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  margin-top: 0.133333333333333rem;
+  font-size: 0.346666666666667rem;
+  line-height: 0.666666666666667rem;
+  color: #222;
+}

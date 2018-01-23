@@ -1,0 +1,143 @@
+body,
+html {
+  line-height: 1;
+  font-family: '\65B9\6B63\5170\4EAD\9ED1', 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+}
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.level-reply {
+  position: fixed;
+  background-color: #ddd;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.level-reply .level-reply-detail {
+  height: auto;
+  min-height: 100%;
+}
+.level-reply .level-reply-detail .goBack {
+  padding-top: 0.533333333333333rem;
+  padding-bottom: 0.533333333333333rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  height: 0.52rem;
+  background-color: #fff;
+}
+.level-reply .level-reply-detail .goBack .img {
+  display: inline-block;
+  width: 0.52rem;
+  height: 0.52rem;
+  margin-right: 0.266666666666667rem;
+  float: left;
+}
+.level-reply .level-reply-detail .goBack .img img {
+  width: 0.52rem;
+  height: 0.52rem;
+  display: block;
+}
+.level-reply .level-reply-detail .goBack .name {
+  display: inline-block;
+  float: left;
+  color: #464646;
+  font-size: 0.533333333333333rem;
+  line-height: 0.52rem;
+}
+.level-reply .level-reply-detail .level-reply-division {
+  height: 0.266666666666667rem;
+}
+.level-reply .level-reply-detail .level-reply-list {
+  position: relative;
+  left: 0;
+  top: 0;
+  min-height: 13.2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #bbb;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem {
+  background-color: #fff;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item {
+  padding-top: 0.533333333333333rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  padding-bottom: 0.4rem;
+  height: 1.733333333333333rem;
+  display: flex;
+  align-items: top;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .img {
+  flex-basis: 1.146666666666667rem;
+  width: 1.146666666666667rem;
+  height: 1.146666666666667rem;
+  padding-right: 0.4rem;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .img img {
+  width: 1.146666666666667rem;
+  height: 1.146666666666667rem;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .con {
+  height: 1.733333333333333rem;
+  flex: 1;
+  font-size: 0.4rem;
+  line-height: 0.533333333333333rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .con .name {
+  color: #000;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .con .content {
+  color: #464646;
+}
+.level-reply .level-reply-detail .level-reply-list .listItem .item .con .date {
+  color: #888;
+}
+.level-reply .level-reply-detail .level-reply-list .level-reply-tip {
+  position: absolute;
+  bottom: 1.6rem;
+  width: 100%;
+  color: #888;
+  text-align: center;
+  height: 0.346666666666667rem;
+  font-size: 0.346666666666667rem;
+  padding-top: 0.533333333333333rem;
+  padding-bottom: 0.133333333333333rem;
+  background-color: #ddd;
+}
+.level-reply .level-reply-add {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 1.6rem;
+  margin: 0 auto;
+  margin-top: -1.6rem;
+}
+.level-reply .level-reply-add .add-reply-input {
+  flex-basis: 8.133333333333333rem;
+  width: 8.133333333333333rem;
+  height: 0.666666666666667rem;
+  margin-left: 0.4rem;
+  border: none;
+  border-bottom: 1px solid #bbb;
+}
+.level-reply .level-reply-add .img {
+  flex: 1;
+  width: 0.746666666666667rem;
+  height: 0.6rem;
+  margin-left: 0.333333333333333rem;
+}
+.level-reply .level-reply-add .img img {
+  display: block;
+  width: 0.746666666666667rem;
+  height: 0.6rem;
+}
