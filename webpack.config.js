@@ -54,7 +54,7 @@ module.exports={
     ]
   },
   plugins:[
-    new extractTextPlugin("css/level-reply.css")
+    new extractTextPlugin("css/userinformation.css")
   ],
   devServer:{}
 }
